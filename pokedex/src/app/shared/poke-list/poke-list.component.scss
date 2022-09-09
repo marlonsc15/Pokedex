@@ -4,15 +4,16 @@
 $padding: rem-calc(20);
 
 :host {
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
     .pokemon {
         position: relative;
         display: flex;
-        width: (49% - 2.5rem);
+        width: calc(49% - 2.5rem);
         background: var(--branco);
         border-radius: rem-calc(10);
-        height: rem-calc(157 - 40);
+        height: calc(157 - 40);
         padding: $padding;
 
         &__status {
@@ -44,7 +45,7 @@ $padding: rem-calc(20);
             display: flex;
             align-items: center;
             justify-content: center;
-            height: rem-calc(90);
+            height: rem-calc(70);
             width: rem-calc(110);
             right: $padding;
             bottom: $padding;
